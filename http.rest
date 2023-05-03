@@ -1,0 +1,12 @@
+
+GET http://localhost:3001/api/products
+###
+POST http://localhost:3001/api/user
+content-type:application/json
+
+{
+    "name":"anmol",
+    "email":"anmol@gmail.com",
+    "password":"123456"
+}
+
